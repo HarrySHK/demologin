@@ -20,7 +20,7 @@ app.use(passport.session());
 
 app.use(
 	cors({
-		origin: "https://demologin-weld.vercel.app/",
+		origin: "https://demologin-weld.vercel.app",
 		methods: "GET,POST,PUT,DELETE",
 		credentials: true,
 	})
